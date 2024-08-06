@@ -1,0 +1,211 @@
+/* --------- Home --------- */
+@media (max-width: 1209.98px) {
+    #home {
+        margin: 0 5%;
+        background: none;
+    }
+
+    .home-img img {
+        height: 28rem;
+    }
+
+    .h1-text {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .home-links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .home-info {
+        min-height: fit-content;
+    }
+
+    .home-img img {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 764.98px) {
+    .home-navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .home-switcher-container {
+        padding-top: 2rem;
+    }
+
+    .home-info,
+    .home-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-text {
+        padding-top: 2rem;
+    }
+
+    .home-text p,
+    .home-text h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .home-navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-text h2 {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4rem;
+        padding: 2rem 0;
+    }
+}
+
+/* --------- About --------- */
+@media (max-width: 1209.98px) {
+    #about {
+        margin: 0 5%;
+    }
+
+    .about-img img {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .about-info,
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-text {
+        padding-bottom: 2rem;
+    }
+
+    .about-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .about-img img {
+        height: 14rem;
+    }
+}
+
+/* --------- Experience --------- */
+@media (max-width: 1209.98px) {
+    #experience {
+        margin: 0 5%;
+    }
+
+    .experience-title {
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 1.2rem;
+    }
+
+    .experience-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+/* --------- Projects --------- */
+@media (max-width: 1209.98px) {
+    #projects {
+        margin: 0 5%;
+    }
+
+    .brand-title {
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 1.2rem;
+    }
+
+    .mockups-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+/* --------- Mockups --------- */
+@media (max-width: 1209.98px) {
+    @media (max-width: 1209.98px) {
+        #mockups {
+            margin: 0 5%;
+        }
+
+        .mockups-title {
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 1.2rem;
+        }
+
+        .mockups-container {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+}
+
+/* --------- Advertisements --------- */
+@media (max-width: 1209.98px) {
+    @media (max-width: 1209.98px) {
+        #advertisements {
+            margin: 0 5%;
+        }
+
+        .advertisements-title {
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 1.2rem;
+        }
+
+        .advertisements-info {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+}
+
+/* --------- Contact --------- */
+@media (max-width: 1209.98px) {
+    @media (max-width: 1209.98px) {
+        #contact {
+            margin: 0 5%;
+        }
+    }
+}
+
+/* --------- Copyright --------- */
+@media (max-width: 479.98px) {
+    .copyright__container p {
+        text-align: center;
+    }
+}
